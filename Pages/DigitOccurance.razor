@@ -1,0 +1,241 @@
+@page "/digit-occurance"
+@using ChartJs.Blazor.PieChart
+@using ChartJs.Blazor.Util
+@using ChartJs.Blazor.Common
+@using ChartJs.Blazor.BarChart
+@using ChartJs.Blazor.Common.Enums
+@using DefaultNamespace
+@using System.Drawing
+@using ChartJs.Blazor.Common.Axes
+@inject DigitService DigitService
+
+<h4>Digit Occurence in algorith sequence</h4>
+
+@if (!_isAdvance)
+{
+    <MatTextField  Type="number"  Label="Sequence" PlaceHolder="Sequence" @bind-Value="Sequence" > </MatTextField>
+    <div class="d-flex justify-content-center">
+        <h6>@resultStatementBasic</h6></div>
+}
+
+
+@if (_isAdvance)
+{
+    <MatTextField  Type="number" Label="Minimum Number" PlaceHolder="Minimum Number" @bind-Value="Min"> </MatTextField>
+    <MatTextField  Type="number"  Label="Maximum number" PlaceHolder="MaximumNumber" @bind-Value="Max"> </MatTextField>
+    
+    @if (_barConfig != null)
+    {
+        <div class="col-md-6">
+            <Chart Config="@_barConfig"></Chart>
+        </div>
+
+    }
+    <div class="d-flex justify-content-center align-items-center flex-column">
+        <h6>@resultStatementAdvance</h6>
+        @if(resultStatementAdvance!=null)
+        {
+            <p> Standard deviation of the item is @stdDvt</p>
+        }
+      
+    
+        </div>
+}   
+
+    <div class="d-flex justify-content-center mt-3 gap-4">
+        <MatButton Class="p-4" Raised="true"  OnClick="Toggle"><small>
+            @statement
+        </small></MatButton>  
+        <MatButton Class="p-4" Raised="true"  OnClick="GenerateResult"><small>Generate Result</small> </MatButton>
+    </div>
+
+@if (advanceResult.Count > 0)
+{
+    <MatTable Items="@(new List<int>{0})"  ShowPaging="false" class="mat-elevation-z5">
+        <MatTableHeader>
+            <th colspan="1">Result</th>
+            <td colspan="1">0</td>
+            <td colspan="1">1</td>
+            <td colspan="1">2</td>
+            <td colspan="1">3</td>
+            <td colspan="1">4</td>
+            <td colspan="1">5</td>
+            <td colspan="1">6</td>
+            <td colspan="1">9</td>
+            <td colspan="1">8</td>
+            <td colspan="1">9</td>
+
+        </MatTableHeader>
+        <MatTableRow>
+            <th> Frequency</th>
+            @foreach (var item in advanceResult)
+            {
+                <td>@item</td>
+            }
+
+        </MatTableRow>
+    </MatTable>
+}
+ 
+ 
+
+@code{
+
+    private long _sequence = 20191001187;
+    private double stdDvt;
+    private List<int> advanceResult = new List<int>();
+    int _min = 201;
+    int _max = 999;
+    private string statement = "Change To Advance";
+    private string resultStatementBasic;
+    private string resultStatementAdvance;
+    long Sequence
+    {
+        get => _sequence;
+        set
+        {
+            _sequence = value;
+            this.StateHasChanged();
+        }
+    }   
+    private int Min    {
+        get => _min;
+        set
+        {
+             _min =value;
+            this.StateHasChanged();
+        }
+    }
+    private int Max  {
+        get => _max;
+        set
+        {
+            _max= value;
+            this.StateHasChanged();
+        }
+    }
+    private bool _isAdvance = false;
+    private BarConfig _barConfig;
+    
+    [Inject]
+    IJSRuntime JS { get; set; }
+ 
+    async Task Error(string err) =>
+        await JS.InvokeAsync<object>("alert", err);    
+    
+    
+    async Task Success(string msg) =>
+        await JS.InvokeAsync<object>("alert", msg);
+
+    private  async Task GenerateResult()
+    {
+        if (_isAdvance)
+        {
+            await CalculateAdvanceSequence();
+          return;
+        }
+      var result =   await DigitService.GetReferenceNumber(Sequence.ToString());
+        resultStatementBasic = $"Final Value of {Sequence} is {result}";
+        this.StateHasChanged();
+        
+    }
+
+    void Toggle()
+    {
+        _isAdvance = !_isAdvance;
+        statement = _isAdvance ? "Change To Basic" : "Change To Advance";
+        advanceResult = new List<int>();
+        this.StateHasChanged();
+    }
+    
+    private double GetStandardDeviation(List<int> list)
+    {
+        var freqSum = list.Sum();
+        if (freqSum == 0)
+        {
+            return 0;
+        }
+
+        var total = list.Select((x,i) => x*i).Sum();
+        double average = total/ freqSum;  
+        double sumOfDerivation = 0;  
+        
+       sumOfDerivation =  list.Select((x,i)=> x*i*i).Sum();
+ 
+        double sumOfDerivationAverage = sumOfDerivation / (freqSum - 1);  
+        return Math.Round(Math.Sqrt(sumOfDerivationAverage - (average*average)), 2);  
+    }
+    
+    string AnalyseResult(double standardDeviation)
+    {
+        if (standardDeviation == 0)
+        {
+            return "The Result is evenly distributed";
+        }
+        if (standardDeviation<5)
+        {
+            return "Almost evenly distributed";
+        }
+       
+            return "The date is not evenly distributed";
+
+    }
+ 
+    protected override async Task OnInitializedAsync()
+    {
+         await  GenerateResult();
+    }
+
+    async Task CalculateAdvanceSequence()
+    {
+        if(Min>Max || Min<=1)
+        {
+            await Error("Minimum Number cannot be greater than Maximum Number or lesser than 0");
+            return;
+        }
+        if (Max >= 10000)
+        {
+            await Error("Maximum Number cannot be greater than 10000"); 
+            return;
+        }
+        var rangeResult =   await  DigitService.GetRangeOfOccurrence(_min.ToString(),Max.ToString());
+         stdDvt = GetStandardDeviation(rangeResult.Data);
+        advanceResult = rangeResult.Data;
+        resultStatementAdvance = AnalyseResult(stdDvt);
+        
+        _barConfig = new BarConfig (false){Options = new BarOptions
+        {
+            Title = new OptionsTitle
+            {
+                Display = true,
+                Text = "Bar Chart of Occurence",
+            },
+            Responsive = true, AspectRatio = null,
+            MaintainAspectRatio = null,  Legend = null, Tooltips = null, Animation = null, Events = new BrowserEvent[] {}, OnClick = null, OnHover = null, Hover = null, Scales = null,
+        }
+        };
+        foreach (var data in  rangeResult.Label)
+        {
+            _barConfig.Data.Labels.Add(data);
+        }
+        _barConfig.Data.Datasets.Add(new BarDataset<int>(rangeResult.Data.ToArray())
+        {
+            BackgroundColor = new[]
+            {
+                ColorUtil.ColorHexString(255, 99, 132),
+                ColorUtil.ColorHexString(255, 205, 86),
+                ColorUtil.ColorHexString(75, 192, 192), 
+                ColorUtil.ColorHexString(54, 162, 235), 
+                ColorUtil.RandomColorString(), 
+                ColorUtil.RandomColorString(), 
+                ColorUtil.RandomColorString(), 
+                ColorUtil.RandomColorString(),
+                ColorUtil.RandomColorString(), 
+                ColorUtil.RandomColorString(), 
+            }
+        });
+        
+    }
+    
+
+}

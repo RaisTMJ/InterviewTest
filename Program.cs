@@ -10,6 +10,7 @@ builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<PersonalLoanService>();
 builder.Services.AddSingleton<DigitService>();
+builder.Services.AddSingleton<SortingAlgorithmService>();
 builder.Services.AddHttpClient();
 builder.Services.AddMatBlazor();
 var app = builder.Build();

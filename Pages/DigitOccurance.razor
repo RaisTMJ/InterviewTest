@@ -14,7 +14,7 @@
 @if (!_isAdvance)
 {
     <MatTextField  Type="number"  Label="Sequence" PlaceHolder="Sequence" @bind-Value="Sequence" > </MatTextField>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex mt-3 justify-content-center">
         <h6>@resultStatementBasic</h6></div>
 }
 
@@ -32,9 +32,10 @@
 
     }
     <div class="d-flex justify-content-center align-items-center flex-column">
-        <h6>@resultStatementAdvance</h6>
         @if(resultStatementAdvance!=null)
         {
+            <h6>@resultStatementAdvance</h6>
+            <p> Number with highest frequency is @maxOccurence.Trim(",".ToCharArray().ElementAt(0)) and Number with lowest frequency is @minOccurence.Trim(",".ToCharArray().ElementAt(0))</p>
             <p> Standard deviation of the item is @stdDvt</p>
         }
       
@@ -61,7 +62,7 @@
             <td colspan="1">4</td>
             <td colspan="1">5</td>
             <td colspan="1">6</td>
-            <td colspan="1">9</td>
+            <td colspan="1">7</td>
             <td colspan="1">8</td>
             <td colspan="1">9</td>
 
@@ -86,6 +87,9 @@
     private List<int> advanceResult = new List<int>();
     int _min = 201;
     int _max = 999;
+
+    string minOccurence;
+    string maxOccurence;
     private string statement = "Change To Advance";
     private string resultStatementBasic;
     private string resultStatementAdvance;
@@ -201,8 +205,31 @@
         var rangeResult =   await  DigitService.GetRangeOfOccurrence(_min.ToString(),Max.ToString());
          stdDvt = GetStandardDeviation(rangeResult.Data);
         advanceResult = rangeResult.Data;
-        resultStatementAdvance = AnalyseResult(stdDvt);
         
+        var b = 0;
+        maxOccurence = advanceResult.Aggregate("",(x, i ) =>
+        {
+            if (advanceResult.Max() == i)
+            {
+              var _data =   x + $",{b}";
+                b++;
+                return _data;
+            }
+            b++;
+            return x; });
+        b = 0;
+        minOccurence = advanceResult.Aggregate("",(x, i ) =>
+        {
+            if (advanceResult.Min() == i)
+            {
+              var _data =   x + $",{b}";
+                b++;
+                return _data;
+            }
+            b++;
+            return x; });
+        
+        resultStatementAdvance = AnalyseResult(stdDvt);
         _barConfig = new BarConfig (false){Options = new BarOptions
         {
             Title = new OptionsTitle
@@ -211,7 +238,7 @@
                 Text = "Bar Chart of Occurence",
             },
             Responsive = true, AspectRatio = null,
-            MaintainAspectRatio = null,  Legend = null, Tooltips = null, Animation = null, Events = new BrowserEvent[] {}, OnClick = null, OnHover = null, Hover = null, Scales = null,
+            MaintainAspectRatio = null,  Legend = null, Tooltips = null, Animation = null, Events = new BrowserEvent[] {}, OnClick = null , Hover = null, Scales = null,
         }
         };
         foreach (var data in  rangeResult.Label)

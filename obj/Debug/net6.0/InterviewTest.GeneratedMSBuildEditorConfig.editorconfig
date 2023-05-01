@@ -19,16 +19,8 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/admin/Desktop/github-project/InterviewTest/Pages/DigitOccurance.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlnaXRPY2N1cmFuY2UucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/admin/Desktop/github-project/InterviewTest/Pages/Index.razor]
@@ -37,6 +29,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/admin/Desktop/github-project/InterviewTest/Pages/PersonalLoan.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uYWxMb2FuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/admin/Desktop/github-project/InterviewTest/Pages/RotatingSortingAlgortihm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm90YXRpbmdTb3J0aW5nQWxnb3J0aWhtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/admin/Desktop/github-project/InterviewTest/Shared/SurveyPrompt.razor]

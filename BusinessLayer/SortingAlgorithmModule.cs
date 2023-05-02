@@ -6,8 +6,6 @@ public class SortingAlgorithmModule
 {
     public static char[] OrderByAlgorithm(char[] input, int ordering)
     {
-       
-        List<int>  indexSelected  = new List<int>();
         ordering -= 1;
         int currentIndex = 0;
         var indexNewChar = new List<int>();
@@ -23,7 +21,7 @@ public class SortingAlgorithmModule
          }
          if(currentIndex + ordering < available.Count+1)
          {
-             currentIndex = currentIndex + ordering;
+             currentIndex = (currentIndex + ordering) % available.Count();
              indexNewChar.Add(available[currentIndex]);
              continue;
          }

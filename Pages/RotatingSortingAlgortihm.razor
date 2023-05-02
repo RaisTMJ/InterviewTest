@@ -64,7 +64,7 @@
 
 
 @code {
-    private bool _isReverse = true;
+    private bool _isReverse = false;
     private bool _includeDash = false;
     private bool disablethreeSecond = false;
 
@@ -112,15 +112,8 @@
     {
         var model = new SortingAlgorithmModel {CharString = CharString, SequenceOrder = SequenceRotation,DashSequence = DashNumber,IncludeDash = _includeDash , IsInverse = _isReverse};
 
-        try
-        {
             result = await _sortingService.GetRotationAlgorithmSequence(model);
 
-        }
-        catch (Exception e)
-        {
-            await InverseWithDash();
-        }
         //
         disablethreeSecond = true;
         await Task.Delay(3000);

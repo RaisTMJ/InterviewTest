@@ -122,7 +122,7 @@
     async Task GenerateResult()
     {
         var model = new SortingAlgorithmModel {CharString = CharString, SequenceOrder = SequenceRotation,DashSequence = DashNumber,IncludeDash = _includeDash , IsInverse = _isReverse};
-        if(model.IncludeDash && model.DashSequence < 3)
+        if(model.IncludeDash && model.IsInverse )
             {
                 snackBar3IsOpen = true;
                 this.StateHasChanged();

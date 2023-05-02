@@ -9,7 +9,7 @@ public class SortingAlgorithmService: ISortingAlgorithm
     {
         if(!model.IsInverse)
         {
-            var result = SortingAlgorithmModule.OrderByAlgorithmTest(model.CharString.ToCharArray(), model.SequenceOrder);
+            var result = SortingAlgorithmModule.OrderByAlgorithm(model.CharString.ToCharArray(), model.SequenceOrder);
             if (model.IncludeDash && model.DashSequence> 0 )
             {
                 result = _sortingModule.GetSortingAlgorithmSequenceWithDash(result, model.DashSequence);

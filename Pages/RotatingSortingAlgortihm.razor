@@ -5,24 +5,28 @@
 @inject IJSRuntime JsRuntime
 <h5>Rotating Sorting algorithm</h5>
 
-    <MatCard Class="mt-4" >
-        <MatCardContent>
-    <div class="d-flex justify-content-start">
+<MatCard  Class="mt-4" >
+    <MatCardContent >
+        <div class="d-flex justify-content-start">
             <MatTextField FullWidth="true" Type="text" Label="Sequence Rotation" PlaceHolder="Sequence Number" @bind-Value="CharString"> </MatTextField>
-    </div>
+        </div>
     
-            <div class="d-flex flex-row justify-content-between align-items-center gap-3 m-3" >
-                <MatTextField Type="number" Label="Sequence Rotation" PlaceHolder="Sequence Number" @bind-Value="SequenceRotation"> </MatTextField>
-                <MatTextField Type="number" Label="Dash position of every" Disabled="@(!_includeDash)" PlaceHolder="Sequence Number" @bind-Value="DashNumber"> </MatTextField>  
-            </div>
+        <div class="d-flex flex-row justify-content-between align-items-center gap-3 m-3" >
+            <MatTextField Type="number" Label="Sequence Rotation" PlaceHolder="Sequence Number" @bind-Value="SequenceRotation"> </MatTextField>
+            <MatTextField Type="number" Label="Dash position of every" Disabled="@(!_includeDash)" PlaceHolder="Sequence Number" @bind-Value="DashNumber"> </MatTextField>  
+        </div>
   
            
-            <span class="w-50 mt-3">            <MatSlideToggle  Label='@(_includeDash ? "Include Dash in every 3 letter" : "No Dash")' @bind-Value="@_includeDash"></MatSlideToggle> </span>
+        <span class="w-50 px-5">            <MatSlideToggle  Label='@(_includeDash ? "Include Dash in every 3 letter" : "No Dash")' @bind-Value="@_includeDash"></MatSlideToggle> </span>
             
-            <span class="w-50 mt-3">             
+        <span class="w-50 px-5">             
             <MatSlideToggle  Label='@(_isReverse ? "Inverse" : "Basic")' @bind-Value="@_isReverse"></MatSlideToggle></span>
-        </MatCardContent>
-        </MatCard>
+    </MatCardContent>
+</MatCard>
+
+    <MatSnackbar class="alert-secondary" @bind-IsOpen="snackBar3IsOpen" Stacked="true">
+        <MatSnackbarContent>Dash with inverse is not develop </MatSnackbarContent>
+    </MatSnackbar>
 @if (result != null)
 {
     <MatSnackbar @bind-IsOpen="@snackBar2IsOpen" Stacked="true">
@@ -88,7 +92,7 @@
         } 
     }   
     
-    private string _charString = "GFHBEACD";
+    private string _charString = "ABCDEFGH";
     private string CharString
     {
         get => _charString;
@@ -107,7 +111,16 @@
     async Task GenerateResult()
     {
         var model = new SortingAlgorithmModel {CharString = CharString, SequenceOrder = SequenceRotation,DashSequence = DashNumber,IncludeDash = _includeDash , IsInverse = _isReverse};
-        result = await _sortingService.GetRotationAlgorithmSequence(model);
+
+        try
+        {
+            result = await _sortingService.GetRotationAlgorithmSequence(model);
+
+        }
+        catch (Exception e)
+        {
+            await InverseWithDash();
+        }
         //
         disablethreeSecond = true;
         await Task.Delay(3000);
@@ -119,6 +132,13 @@
     {
         await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", string.Join("", result).Trim());
         snackBar2IsOpen = true;
+        this.StateHasChanged();
+    }
+    bool snackBar3IsOpen = false;
+
+    private async Task InverseWithDash()
+    {
+    snackBar3IsOpen = true;
         this.StateHasChanged();
     }
  

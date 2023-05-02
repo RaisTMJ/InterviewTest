@@ -3,7 +3,16 @@
 @using DefaultNamespace
 @inject SortingAlgorithmService _sortingService
 @inject IJSRuntime JsRuntime
-<h5>Rotating Sorting algorithm</h5>
+
+<div class="d-flex justify-content-between flex-sm-row flex-column m-3 ">
+    
+    <h5>Rotating Sorting algorithm</h5>
+    <div>
+    <MatButton Outlined="true" Dense="true"  class="m-3" Icon="file-copy" OnClick="CopyBasicText">Copy basic text</MatButton>
+    <MatButton Raised="true" Icon="file-copy" OnClick="CopyAdvanceText">Copy advance text</MatButton>
+    </div>
+    
+</div>
 
 <MatCard  Class="mt-4" >
     <MatCardContent >
@@ -30,7 +39,7 @@
 @if (result != null)
 {
     <MatSnackbar @bind-IsOpen="@snackBar2IsOpen" Stacked="true">
-        <MatSnackbarContent>          <h4>Copy Result</h4>     @(string.Join("", result).Trim()) </MatSnackbarContent>
+        <MatSnackbarContent>          Text Copied </MatSnackbarContent>
     </MatSnackbar>
     
     <MatCard class="m-5">
@@ -108,9 +117,17 @@
     {
     }
 
+    bool snackBar3IsOpen = false;
+    bool snackBar2IsOpen = false;
     async Task GenerateResult()
     {
         var model = new SortingAlgorithmModel {CharString = CharString, SequenceOrder = SequenceRotation,DashSequence = DashNumber,IncludeDash = _includeDash , IsInverse = _isReverse};
+        if(model.IncludeDash && model.DashSequence < 3)
+            {
+                snackBar3IsOpen = true;
+                this.StateHasChanged();
+                return;
+            }
 
             result = await _sortingService.GetRotationAlgorithmSequence(model);
 
@@ -120,21 +137,27 @@
         disablethreeSecond = false;  
 
     }
-    bool snackBar2IsOpen = false;
     private async Task CopyTextToClipboard()
     {
         await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", string.Join("", result).Trim());
         snackBar2IsOpen = true;
         this.StateHasChanged();
     }
-    bool snackBar3IsOpen = false;
 
-    private async Task InverseWithDash()
+async Task CopyAdvanceText()
     {
-    snackBar3IsOpen = true;
-        this.StateHasChanged();
+        await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", "e  rbml s nngeshsr etaet.loaldtryadaimt di ghtoeaeuse aC cuciy afskh ss t ovgo tna atstanmeempaa  Itrf oee!oenotou");
+        snackBar2IsOpen = true;
+        this.StateHasChanged(); 
     }
- 
+
+    async Task CopyBasicText()
+    {
+        await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", "GHA14SFSD6K92");
+        this.snackBar2IsOpen = true;
+        this.StateHasChanged(); 
+    }
+
 }
 
 

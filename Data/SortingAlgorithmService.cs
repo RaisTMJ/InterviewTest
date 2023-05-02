@@ -19,7 +19,8 @@ public class SortingAlgorithmService: ISortingAlgorithm
      
         if(model.IsInverse && !model.IncludeDash)
         {
-            throw new NotImplementedException();
+            
+          return  Task.FromResult(_sortingModule.GetSortingAlgorithmSequenceWithInverse(model));
         }
         throw new Exception("Inverse Algorithm with Dash is not implemented");
     }

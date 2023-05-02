@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/admin/Desktop/github-project/InterviewTest/InterviewTest.csproj": {}
+    "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\InterviewTest.csproj": {}
   },
   "projects": {
-    "/Users/admin/Desktop/github-project/InterviewTest/InterviewTest.csproj": {
+    "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\InterviewTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/admin/Desktop/github-project/InterviewTest/InterviewTest.csproj",
+        "projectUniqueName": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\InterviewTest.csproj",
         "projectName": "InterviewTest",
-        "projectPath": "/Users/admin/Desktop/github-project/InterviewTest/InterviewTest.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Users/admin/Desktop/github-project/InterviewTest/obj/",
+        "projectPath": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\InterviewTest.csproj",
+        "packagesPath": "C:\\Users\\Rais\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Rais\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.407/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

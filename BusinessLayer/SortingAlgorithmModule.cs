@@ -86,20 +86,70 @@ public class SortingAlgorithmModule: ISortingAlgorithmProcedure
 
     }
 
-    public string GetSortingAlgorithmSequenceWithInverse(SortingAlgorithmModel model)
+    public Char[] GetSortingAlgorithmSequenceWithInverse(SortingAlgorithmModel model)
     {
-        throw new NotImplementedException();
-    }
-
-    char[] ISortingAlgorithmProcedure.ExtendArray(char[] input, char[] addArray)
-    {
-        // combine two array
+        var currentIndex = 0;
+        var ordering = model.SequenceOrder - 1;
+        var selectedIndex = 0;
+        var indexNewChar = new List<int>();
+        var charList = model.CharString.ToCharArray().ToList();
         
-        Array.Resize(ref input, input.Length + addArray.Length);
+        var rotatedCharListIndex = new List<int>();
 
-        throw new NotImplementedException();
+        
+        
+        for (var i = charList.Count - 1; i >= 0; i--)
+        {
+            selectedIndex = i;
+            
+            if (charList.Count - 1  ==i)
+            {
+                currentIndex += ordering;
+                indexNewChar.Add(i);
+                rotatedCharListIndex.Add(currentIndex);
+                continue;
+            }
+            
+
+            while ((currentIndex+ordering+ 1) >= rotatedCharListIndex.Count)
+            {
+                rotatedCharListIndex.AddRange(indexNewChar);
+            }
+
+            currentIndex += ordering;
+            
+          indexNewChar =   AddSpecificElementToList(indexNewChar, i, rotatedCharListIndex.Count - currentIndex-1);
+            
+
+        }
+        rotatedCharListIndex.AddRange(indexNewChar);
+        rotatedCharListIndex.AddRange(indexNewChar);
+        var getlast2State = rotatedCharListIndex.GetRange(rotatedCharListIndex.Count- (2* indexNewChar.Count), 2* indexNewChar.Count);
+        var aa = getlast2State.Select(x=> charList[x]).ToArray();
+        var startIndex =(getlast2State.IndexOf(0)+ ordering- indexNewChar.Count)% indexNewChar.Count;
+        var sortedValue = getlast2State.GetRange(startIndex ,indexNewChar.Count );
+        return sortedValue.Select(val => charList[val]).Reverse().ToArray();
+      
+    }   
+
+
+    public List<char> MergeIndexWithStartPoint(List<char> array1, int StartIndex)
+    {
+        
+        var arrayBefore = array1.GetRange(0, StartIndex+1).ToList();
+        var arrayAfter = array1.GetRange(StartIndex+1, array1.Count - StartIndex-1);
+        arrayBefore.Reverse();
+        arrayAfter.Reverse();
+        arrayBefore.AddRange(arrayAfter);
+        return arrayBefore;
     }
     
+    public List<int> AddSpecificElementToList (List<int> list, int element, int positionFromLastIndex)
+    {
+        list.Insert(list.Count - positionFromLastIndex, element);
+        return list;
+    }
+
 
 }
 

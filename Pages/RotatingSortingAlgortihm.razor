@@ -60,7 +60,7 @@
 
 
 @code {
-    private bool _isReverse = false;
+    private bool _isReverse = true;
     private bool _includeDash = false;
     private bool disablethreeSecond = false;
 
@@ -88,7 +88,7 @@
         } 
     }   
     
-    private string _charString = "ABCDEFGH";
+    private string _charString = "GFHBEACD";
     private string CharString
     {
         get => _charString;
@@ -117,7 +117,7 @@
     bool snackBar2IsOpen = false;
     private async Task CopyTextToClipboard()
     {
-        await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", result);
+        await JsRuntime.InvokeVoidAsync("navigator.clipboard.writeText", string.Join("", result).Trim());
         snackBar2IsOpen = true;
         this.StateHasChanged();
     }

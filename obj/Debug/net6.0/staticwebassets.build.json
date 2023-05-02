@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o9QVEuzZ61RoHKbe6pAtOwIGKva7nQUPEIbQkIe6LtM=",
+  "Hash": "7rImHeig7crQX0n527uOdCvYAPDlqJux2WH3Pi0a6dE=",
   "Source": "InterviewTest",
   "BasePath": "_content/InterviewTest",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "InterviewTest/wwwroot",
+      "Name": "InterviewTest\\wwwroot",
       "Source": "InterviewTest",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor.fork/2.0.2/contentFiles/any/netstandard2.1/wwwroot/ChartJsBlazorInterop.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "ChartJsBlazorInterop.js",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor.fork/2.0.2/contentFiles/any/netstandard2.1/wwwroot/ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\contentFiles\\any\\netstandard2.1\\wwwroot\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor.fork/2.0.2/staticwebassets/ChartJsBlazorInterop.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js",
       "SourceId": "ChartJs.Blazor.Fork",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor.fork/2.0.2/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor.Fork",
       "RelativePath": "ChartJsBlazorInterop.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor.fork/2.0.2/staticwebassets/ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor.fork\\2.0.2\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/Chart.min.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "Chart.min.js",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/Chart.min.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\Chart.min.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ChartJSBlazor.css",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJSBlazor.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ChartJSBlazor.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJSBlazor.css"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ChartJsBlazorInterop.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJsBlazorInterop.js",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ChartJsBlazorInterop.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ChartJsBlazorInterop.js.map",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ChartJsBlazorInterop.js.map",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ChartJsBlazorInterop.js.map"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ChartJsBlazorInterop.js.map"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/moment-with-locales.min.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "moment-with-locales.min.js",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/moment-with-locales.min.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\moment-with-locales.min.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/ChartJsBlazorInterop.ts",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/ChartJsBlazorInterop.ts",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/ChartJsBlazorInterop.ts"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsBlazorInterop.ts"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/ChartJsInterop.ts",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/ChartJsInterop.ts",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/ChartJsInterop.ts"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\ChartJsInterop.ts"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/MomentJsInterop.ts",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/MomentJsInterop.ts",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/MomentJsInterop.ts"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\MomentJsInterop.ts"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/types/Chart.min.d.ts",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/types/Chart.min.d.ts",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/types/Chart.min.d.ts"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\Chart.min.d.ts"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/types/moment.d.ts",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "ts/types/moment.d.ts",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/ts/types/moment.d.ts"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\ts\\types\\moment.d.ts"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/tsconfig.json",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json",
       "SourceId": "ChartJs.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\",
       "BasePath": "_content/ChartJs.Blazor",
       "RelativePath": "tsconfig.json",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/chartjs.blazor/1.1.0/staticwebassets/tsconfig.json"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\chartjs.blazor\\1.1.0\\staticwebassets\\tsconfig.json"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/matblazor/2.10.0/staticwebassets/dist/matBlazor.css",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.css",
       "SourceId": "MatBlazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/matblazor/2.10.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\",
       "BasePath": "_content/MatBlazor",
       "RelativePath": "dist/matBlazor.css",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/matblazor/2.10.0/staticwebassets/dist/matBlazor.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.css"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/matblazor/2.10.0/staticwebassets/dist/matBlazor.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.js",
       "SourceId": "MatBlazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/matblazor/2.10.0/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\",
       "BasePath": "_content/MatBlazor",
       "RelativePath": "dist/matBlazor.js",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/matblazor/2.10.0/staticwebassets/dist/matBlazor.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\matblazor\\2.10.0\\staticwebassets\\dist\\matBlazor.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material-components-web.css",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material-components-web.css",
       "SourceId": "Material.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\",
       "BasePath": "_content/Material.Blazor",
       "RelativePath": "material-components-web.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material-components-web.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material-components-web.css"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material-components-web.min.css",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material-components-web.min.css",
       "SourceId": "Material.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\",
       "BasePath": "_content/Material.Blazor",
       "RelativePath": "material-components-web.min.css",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material-components-web.min.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material-components-web.min.css"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.css",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.css",
       "SourceId": "Material.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\",
       "BasePath": "_content/Material.Blazor",
       "RelativePath": "material.blazor.css",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.css"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.js",
       "SourceId": "Material.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\",
       "BasePath": "_content/Material.Blazor",
       "RelativePath": "material.blazor.js",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.js"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.min.css",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.min.css",
       "SourceId": "Material.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\",
       "BasePath": "_content/Material.Blazor",
       "RelativePath": "material.blazor.min.css",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.min.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.min.css"
     },
     {
-      "Identity": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.min.js",
+      "Identity": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.min.js",
       "SourceId": "Material.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/",
+      "ContentRoot": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\",
       "BasePath": "_content/Material.Blazor",
       "RelativePath": "material.blazor.min.js",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/.nuget/packages/material.blazor/4.0.0-preview.17/staticwebassets/material.blazor.min.js"
+      "OriginalItemSpec": "C:\\Users\\Rais\\.nuget\\packages\\material.blazor\\4.0.0-preview.17\\staticwebassets\\material.blazor.min.js"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/obj/Debug/net6.0/scopedcss/bundle/InterviewTest.styles.css",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InterviewTest.styles.css",
       "SourceId": "InterviewTest",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/obj/Debug/net6.0/scopedcss/bundle/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "InterviewTest.styles.css",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/Desktop/github-project/InterviewTest/obj/Debug/net6.0/scopedcss/bundle/InterviewTest.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InterviewTest.styles.css"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/obj/Debug/net6.0/scopedcss/projectbundle/InterviewTest.bundle.scp.css",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InterviewTest.bundle.scp.css",
       "SourceId": "InterviewTest",
       "SourceType": "Computed",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/obj/Debug/net6.0/scopedcss/projectbundle/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "InterviewTest.bundle.scp.css",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/Users/admin/Desktop/github-project/InterviewTest/obj/Debug/net6.0/scopedcss/projectbundle/InterviewTest.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InterviewTest.bundle.scp.css"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/bootstrap/bootstrap.min.css",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/FONT-LICENSE",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -490,13 +490,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -507,13 +507,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -524,13 +524,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -541,13 +541,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -558,13 +558,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/ICON-LICENSE",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/open-iconic/README.md",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -592,13 +592,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/css/site.css",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\css\\site.css",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -609,13 +609,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/css/site.css"
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/favicon.ico",
+      "Identity": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\favicon.ico",
       "SourceId": "InterviewTest",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/admin/Desktop/github-project/InterviewTest/wwwroot/",
+      "ContentRoot": "C:\\Users\\Rais\\Desktop\\github\\InterviewTest\\wwwroot\\",
       "BasePath": "_content/InterviewTest",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -626,7 +626,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     }
   ]
 }

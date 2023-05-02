@@ -5,60 +5,61 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InterviewTest
 build_property.RootNamespace = InterviewTest
-build_property.ProjectDir = /Users/admin/Desktop/github-project/InterviewTest/
+build_property.ProjectDir = C:\Users\Rais\Desktop\github\InterviewTest\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/admin/Desktop/github-project/InterviewTest
+build_property.MSBuildProjectDirectory = C:\Users\Rais\Desktop\github\InterviewTest
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/App.razor]
+[C:/Users/Rais/Desktop/github/InterviewTest/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/DigitOccurance.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGlnaXRPY2N1cmFuY2UucmF6b3I=
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/DigitOccurance.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlnaXRPY2N1cmFuY2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/PersonalLoan.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVyc29uYWxMb2FuLnJhem9y
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/PersonalLoan.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYWxMb2FuLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/RotatingSortingAlgortihm.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm90YXRpbmdTb3J0aW5nQWxnb3J0aWhtLnJhem9y
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/RotatingSortingAlgortihm.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm90YXRpbmdTb3J0aW5nQWxnb3J0aWhtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/Rais/Desktop/github/InterviewTest/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/_Imports.razor]
+[C:/Users/Rais/Desktop/github/InterviewTest/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-d00szms82l
+[C:/Users/Rais/Desktop/github/InterviewTest/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-y2rfsaj4wx
 
-[/Users/admin/Desktop/github-project/InterviewTest/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-utbxpuwgyb
+[C:/Users/Rais/Desktop/github/InterviewTest/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-edthhcy9mu
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/admin/Desktop/github-project/InterviewTest/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0xheW91dC5jc2h0bWw=
+[C:/Users/Rais/Desktop/github/InterviewTest/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -126,23 +126,12 @@ public class SortingAlgorithmModule: ISortingAlgorithmProcedure
         rotatedCharListIndex.AddRange(indexNewChar);
         var getlast2State = rotatedCharListIndex.GetRange(rotatedCharListIndex.Count- (2* indexNewChar.Count), 2* indexNewChar.Count);
         var aa = getlast2State.Select(x=> charList[x]).ToArray();
-        var startIndex =(getlast2State.IndexOf(0)+ ordering- indexNewChar.Count)% indexNewChar.Count;
+        var startIndex =(getlast2State.IndexOf(0)+ ordering- indexNewChar.Count+1)% indexNewChar.Count;
         var sortedValue = getlast2State.GetRange(startIndex ,indexNewChar.Count );
         return sortedValue.Select(val => charList[val]).Reverse().ToArray();
       
     }   
 
-
-    public List<char> MergeIndexWithStartPoint(List<char> array1, int StartIndex)
-    {
-        
-        var arrayBefore = array1.GetRange(0, StartIndex+1).ToList();
-        var arrayAfter = array1.GetRange(StartIndex+1, array1.Count - StartIndex-1);
-        arrayBefore.Reverse();
-        arrayAfter.Reverse();
-        arrayBefore.AddRange(arrayAfter);
-        return arrayBefore;
-    }
     
     public List<int> AddSpecificElementToList (List<int> list, int element, int positionFromLastIndex)
     {

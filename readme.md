@@ -51,5 +51,5 @@ Requirement  dotnet 6
  this text to test submodule for git
 
  before merging 
-
+ should be ok
  and after mergin there must be something should be line 55
